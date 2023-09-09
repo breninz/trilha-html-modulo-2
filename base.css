@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: safe;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 95%;
+}
+.menu {
+    width: 16%;
+    background-color: rgb(97, 190, 190);
+    padding: 30px 15px 0px;
+}
+.header {
+    background-color: rgb(5, 176, 255);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(3, 46, 165);
+    min-height: 150px;
+}
+.tabela-estilizada {
+    width: 90%;
+    border-collapse: separate;
+    margin: 20px auto;
+    border: 3px solid black;
+}
+
+/* Estilizando as células do cabeçalho */
+.tabela-estilizada th {
+    background-color: rgb(69, 249, 255);
+    color: rgb(12, 12, 12);
+    padding: 10px;
+    border: 3px solid rgb(77, 1, 255);
+}
+
+/* Estilizando as células de dados */
+.tabela-estilizada td {
+    text-align: right;
+    padding: 8px;
+    border: 3px solid #000000;
+}
+
+/* Estilizando linhas alternadas (opcional) */
+.tabela-estilizada tr:nth-child(even) {
+    background-color: #e60f0f;
+}
